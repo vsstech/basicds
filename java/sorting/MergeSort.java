@@ -1,5 +1,3 @@
-package com.vsstech.basicds.sorting;
-
 import java.util.Arrays;
 
 public class MergeSort {
@@ -10,7 +8,7 @@ public class MergeSort {
         int leftArraySize = leftArray.length;
         int rightArraySize = rightArray.length;
 
-        while ( i < leftArray.length && j < rightArray.length){
+        while ( i < leftArraySize && j < rightArraySize){
             if(leftArray[i] < rightArray[j]){
                 mergedArray[k++] = leftArray[i++];
             }

@@ -1,5 +1,3 @@
-package com.vsstech.basicds.sorting;
-
 import java.util.Arrays;
 
 public class QuickSort{
